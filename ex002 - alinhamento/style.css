@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+main {
+    background-color: rgb(196, 233, 255);
+    height: 400px;
+    display: flex;
+    /*
+    flex-wrap: wrap;
+    flex-direction: column;
+    */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div {
+    margin: 10px;
+    background-color: rgb(254, 149, 21);
+    height: 40px;
+    width: 200px;
+}
+
+#div1 {
+    align-self: flex-start;
+}
+
+#divfinal {
+    order: -1;
+    color: rgb(255, 255, 255);
+}

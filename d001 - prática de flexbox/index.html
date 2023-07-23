@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="images/header_logo.png" type="image/x-icon">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+    <title>MediCenter</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="menu">
+                <div class="menuMobile">
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">PAGES</a></li>
+                        <li><a href="#">DEPARTMENTS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Fim do cabeçalho-->
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_text">
+                <h1>Top notch experience</h1>
+                <h2>Medicentwer is a responsive template perfect for all screen size</h2>
+            </div>
+            <!--Fim do texto do banner-->
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Case</div>
+                    <div class="banner_desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam pariatur unde commodi dolor sapiente?</div>
+                    <a href="#">Read more</a> 
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctors Timetables</div>
+                    <div class="banner_desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse odio obcaecati alias eveniet nisi.</div>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+                    <div id="banner_datas">
+                        <div id="banner_days">
+                            <div>Monday - Friday</div>
+                            <div>Saturday</div>
+                            <div>Sunday</div>
+                        </div>
+                        <div id="banner_days">
+                            <div>8:00 - 17:00</div>
+                            <div>9:30 - 17:30</div>
+                            <div>9:30 - 15:00</div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!--Fim das opções do banner-->
+        </div>
+    </section>
+    <!--Fim do banner-->
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="#" target="_blank" rel="external">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">12</div>
+                                </div>
+                                <figure class="news_thumb">
+                                    <img src="images/image_03.jpg" alt="médica atendendo criança">
+                                </figure>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, excepturi debitis, ipsam perspiciatis facere illo rerum libero eligendi iste nam mollitia eum recusandae, sint veritatis dolorum! Officiis corporis impedit saepe!
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#" target="_blank" rel="external">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">12</div>
+                                </div>
+                                <figure class="news_thumb">
+                                    <img src="images/image_03.jpg" alt="médica atendendo criança">
+                                </figure>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, excepturi debitis, ipsam perspiciatis facere illo rerum libero eligendi iste nam mollitia eum recusandae, sint veritatis dolorum! Officiis corporis impedit saepe!
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#" target="_blank" rel="external">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">12</div>
+                                </div>
+                                <figure class="news_thumb">
+                                    <img src="images/image_03.jpg" alt="médica atendendo criança">
+                                </figure>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, excepturi debitis, ipsam perspiciatis facere illo rerum libero eligendi iste nam mollitia eum recusandae, sint veritatis dolorum! Officiis corporis impedit saepe!
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#" target="_blank" rel="external">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">12</div>
+                                </div>
+                                <figure class="news_thumb">
+                                    <img src="images/image_03.jpg" alt="médica atendendo criança">
+                                </figure>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, excepturi debitis, ipsam perspiciatis facere illo rerum libero eligendi iste nam mollitia eum recusandae, sint veritatis dolorum! Officiis corporis impedit saepe!
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="widget_body_departments">
+                            <div class="widget_body_blocks"></div>
+                            <div class="widget_body_blocks"></div>
+                            <div class="widget_body_blocks"></div>
+                            <div class="widget_body_blocks"></div>
+                            <div class="widget_body_blocks"></div>
+                            <div class="widget_body_blocks"></div>
+                        </div>
+                    </div>   
+                </div>
+       
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make An Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="widget_body_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <div class="widget_body_social">
+                            <div class="widget_social_bar"></div>
+
+                            <div class="widget_social">
+                                <img src="images/telefone-icone.png" alt="ícone de telefone">
+                                <div class="widget_social_text">by phone: <strong>(81) 98982-8910</strong></div>
+                            </div>
+
+                            <div class="widget_social_bar"></div>
+
+                            <div class="widget_social">
+                                <img src="images/email-icone.png" alt="ícone de email">
+                                <div class="widget_social_text">by e-mail: <a href="#" target="_blank" rel="external">lhmc0321@gmail.com</a></div>
+                            </div> 
+                            <div class="widget_social_bar"></div>
+
+                            <div class="widget_social">
+                                <img src="images/page-icon.png" alt="ícone de página">
+                                <div class="widget_social_text">or <a href="#" target="_blank" rel="external">file in the form</a> on our contrat page</div>
+                            </div>
+                            <div class="widget_social_bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>      
+    </section>
+    <footer>
+        <div class="container column">
+            <div class="footer_options">
+                <div class="banner1">
+                    <div class="banner_title">Health Insurance</div>
+                    <div class="banner_desk">Here in medicenter we have individual </div>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Medical Records</div>
+                    <div class="banner_desk">Here in medicenter we have individual </div>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Online Bill Pay</div>
+                    <div class="banner_desk">Here in medicenter we have individual </div>
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">MediCenter Clinic</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="footer_contact">
+                        <div class="contact_text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque laborum in esse!
+                        </div>
+                        <div class="contact_data">
+                            <div class="footer_address">
+                                <div>
+                                    Medicenter Clinic
+                                </div>
+                                <div>
+                                    33 Farlane Street
+                                </div>
+                                <div>
+                                    Keilor Aest
+                                </div>
+                                <div>
+                                    VIC 3033, Australia
+                                </div>
+                            </div>
+                            <div class="footer_numbers">
+                                <div>
+                                    (81) 98982-8910
+                                </div>
+                                <div>
+                                    (81) 98982-8910
+                                </div>
+                                <div>
+                                    lhmc0321@gmail.com
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact_images">
+                            <img src="images/email-icone.png" alt="ícone de email">
+                            <img src="images/page-icon.png" alt="ícone de página">
+                            <img src="images/telefone-icone.png" alt="ícone de telefone">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest Posts</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="footer_text">
+                        <a href="#" target="_blank" rel="external">
+                            <div class="latest_post">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum unde quaerat assumenda.
+                            </div>
+                            <div class="time_ago">
+                                6 years ago
+                            </div>
+                        </a>
+                        
+                        <a href="#" target="_blank" rel="external">
+                            <div class="latest_post">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </div>
+                            <div class="time_ago">
+                                6 years ago
+                            </div>
+                        </a>
+
+                        <a href="#" target="_blank" rel="external">
+                            <div class="latest_post">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum unde quaerat assumenda saepe quibusdam a delectus blanditiis.
+                            </div>
+                            <div class="time_ago">
+                                6 years ago
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest Tweets</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="footer_text">
+                        <a href="#" target="_blank" rel="external">
+                            <div class="latest_post">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum unde quaerat assumenda saepe quibusdam a delectus blanditiis.
+                            </div>
+                            <div class="time_ago">
+                                4 days ago
+                            </div>
+                        </a>
+                        
+                        <a href="#" target="_blank" rel="external">
+                            <div class="latest_post">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum unde quaerat assumenda saepe quibusdam a delectus blanditiis.
+                            </div>
+                            <div class="time_ago">
+                                4 days ago
+                            </div>
+                        </a>
+
+                        <a href="#" target="_blank" rel="external">
+                            <div class="latest_post">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum unde quaerat assumenda saepe quibusdam a delectus blanditiis.
+                            </div>
+                            <div class="time_ago">
+                                4 days ago
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                © Copyright - Todos os direitos reservados a Luiz Henrique
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

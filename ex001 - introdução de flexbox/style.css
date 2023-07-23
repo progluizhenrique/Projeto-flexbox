@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+main {
+    background-color: rgb(196, 233, 255);
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div {
+    margin: 10px;
+    flex: 1;
+    background-color: rgb(254, 149, 21);
+    height: 40px;
+}
+
+#maior {
+    flex: 2;
+}
